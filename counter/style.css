@@ -5,7 +5,8 @@
     color: rgb(0, 20, 196);
     margin: 0px;
 }
-#myp{
+#countArea{
+    display: block;
 text-align: center;
 font-size: 100px;
 margin: 50px;
@@ -13,27 +14,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #allBut{
     text-align: center;
-    
+
 }
-#increase{
-border-radius: 10px;
+.buttons{
+border-radius: 5px;
 font-size: larger;
 color: aliceblue;
 background-color: blue;
-
-}
-#reset{
-border-radius: 10px;
-font-size: larger;
-color: aliceblue;
-background-color: blue;
-
-
-}
-#decrease{
-border-radius: 10px;
-font-size: larger;
-color: aliceblue;
-background-color: blue;
-
 }
