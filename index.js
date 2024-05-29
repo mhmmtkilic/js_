@@ -32,3 +32,12 @@ console.log(x,typeof x);
 console.log(y,typeof y);
 console.log(z,typeof z);
 */
+// constanst a veriale that cant be changed
+const  pi=3.14;
+let radius;
+let circumference;
+radius=window.prompt("Please enter radius value: ");
+radius = Number(radius);
+circumference = 2*pi*radius; // perimeter calculated
+console.log(circumference);
+document.getElementById("mytitle").textContent=circumference;//here we changed the h1 tag
